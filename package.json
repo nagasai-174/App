@@ -1,0 +1,29 @@
+{
+  "name": "foodapp",
+  "version": "1.0.0",
+  "description": "This is Food by NAGASAI",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagasai-174/App.git"
+  },
+  "author": "NAGASAI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagasai-174/App/issues"
+  },
+  "homepage": "https://github.com/nagasai-174/App#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist" :[
+    "last 2 version"
+    ]
+}
