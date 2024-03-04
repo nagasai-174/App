@@ -1,5 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-const heading = React.createElement("h1",{id:"heading"},"hello react")
+const Heading = () =>{
+    return(
+    <h1>Hello</h1>
+    )
+}
 const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(heading)
+root.render(<Heading/>)
